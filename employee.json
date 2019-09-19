@@ -1,0 +1,28 @@
+{
+  "employees": [
+     {
+       "name" : "Ali Kurtulush",
+       "age":26,
+       "salary":5000,
+       "departmant":"IT",
+       "nationality":"Turkish",
+       "interests":["Gym","Travelling","Reading","Cooking"],
+       "skills": ["JavaScript","React","HTML 5", "Node.js", "Python", "C#","Java"],
+       "workpermit": true,
+       "languages":["Turkish","English","Spanish"]
+     },
+     {
+       "name" : "Turgay Toykar",
+       "age":26,
+       "salary":5000,
+       "departmant":"IT",
+       "nationality":"Turkish",
+       "interests":["Dance","Travelling","Trolling","Playing a guitar"],
+       "skills": ["JavaScript","React","HTML 5", "Node.js", "Python", "C#","Java"],
+       "workpermit": true,
+       "languages":["Turkish","English"]
+
+
+     }
+   ]
+}
