@@ -32,7 +32,7 @@ function loadedPage() {
     removeItemButton:true
   })
 
-
+  getData()
 
   eventListeners();
   function eventListeners() {
@@ -89,5 +89,12 @@ function loadedPage() {
    ui.clearInputs()
    e.preventDefault()
   }
+  function getData() {
+     request.get()
+    .then(employees => ui.addEmployeesToUi(employees))
+    .catch(err => console.log(err))
+  }
+
+
 
 }

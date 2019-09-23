@@ -4,7 +4,7 @@
       "name": "Ali Kurtulush",
       "age": 26,
       "salary": 5000,
-      "departmant": "IT",
+      "department": "IT",
       "nationality": "Turkish",
       "interests": [
         "Gym",
@@ -33,7 +33,7 @@
       "name": "Turgay Toykar",
       "age": 26,
       "salary": 5000,
-      "departmant": "IT",
+      "department": "IT",
       "nationality": "Turkish",
       "interests": [
         "Dance",
@@ -62,6 +62,7 @@
       "age": "31",
       "salary": "32",
       "department": "Accountant",
+      "nationality": "Turkish",
       "skills": "Management,Problem Solving",
       "interests": "Basketball, Watching movie, Gym",
       "workpermit": true,
@@ -72,6 +73,7 @@
       "age": "27",
       "salary": "8000",
       "department": "IT",
+      "nationality": "Turkish",
       "skills": [
         "Java",
         "C#",
@@ -108,101 +110,6 @@
       "workpermit": true,
       "id": 5
     },
-    {
-      "name": "Bulent Ozturk",
-      "age": "34",
-      "salary": "3444",
-      "department": "IT",
-      "skills": [
-        "css",
-        "html5"
-      ],
-      "interests": [
-        "pigeon",
-        "chilling",
-        "netflix"
-      ],
-      "workpermit": true,
-      "id": 6
-    },
-    {
-      "name": "Bulent Ozturk",
-      "age": "34",
-      "salary": "3444",
-      "department": "IT",
-      "skills": [
-        "dsada",
-        "dsadsa"
-      ],
-      "interests": [
-        "daaf"
-      ],
-      "workpermit": true,
-      "id": 7
-    },
-    {
-      "name": "Bulent Ozturk",
-      "age": "34",
-      "salary": "3444",
-      "department": "IT",
-      "skills": [
-        "dsda",
-        "sdasda"
-      ],
-      "interests": [
-        "sdsad"
-      ],
-      "workpermit": true,
-      "id": 8
-    },
-    {
-      "name": "Bulent Ozturk",
-      "age": "34",
-      "salary": "3444",
-      "department": "IT",
-      "skills": [
-        "dsdsa"
-      ],
-      "interests": [
-        "sdsad"
-      ],
-      "workpermit": true,
-      "id": 9
-    },
-    {
-      "name": "Bulent Ozturk",
-      "age": "34",
-      "salary": "12312",
-      "department": "Accountant",
-      "skills": [
-        "sdad",
-        "dsadas"
-      ],
-      "interests": [
-        "sadsa",
-        "sad"
-      ],
-      "workpermit": true,
-      "id": 10
-    },
-    {
-      "name": "Ufuk Temur",
-      "age": "29",
-      "salary": "3300",
-      "department": "Betting",
-      "skills": [
-        "sdsap",
-        "sdadal",
-        "sdad,l",
-        "asdas"
-      ],
-      "interests": [
-        "dasad",
-        "sdasda",
-        "sfsafdsa"
-      ],
-      "workpermit": true,
-      "id": 11
-    }
+  
   ]
 }
