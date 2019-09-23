@@ -1,28 +1,208 @@
 {
   "employees": [
-     {
-       "name" : "Ali Kurtulush",
-       "age":26,
-       "salary":5000,
-       "departmant":"IT",
-       "nationality":"Turkish",
-       "interests":["Gym","Travelling","Reading","Cooking"],
-       "skills": ["JavaScript","React","HTML 5", "Node.js", "Python", "C#","Java"],
-       "workpermit": true,
-       "languages":["Turkish","English","Spanish"]
-     },
-     {
-       "name" : "Turgay Toykar",
-       "age":26,
-       "salary":5000,
-       "departmant":"IT",
-       "nationality":"Turkish",
-       "interests":["Dance","Travelling","Trolling","Playing a guitar"],
-       "skills": ["JavaScript","React","HTML 5", "Node.js", "Python", "C#","Java"],
-       "workpermit": true,
-       "languages":["Turkish","English"]
-
-
-     }
-   ]
+    {
+      "name": "Ali Kurtulush",
+      "age": 26,
+      "salary": 5000,
+      "departmant": "IT",
+      "nationality": "Turkish",
+      "interests": [
+        "Gym",
+        "Travelling",
+        "Reading",
+        "Cooking"
+      ],
+      "skills": [
+        "JavaScript",
+        "React",
+        "HTML 5",
+        "Node.js",
+        "Python",
+        "C#",
+        "Java"
+      ],
+      "workpermit": true,
+      "languages": [
+        "Turkish",
+        "English",
+        "Spanish"
+      ],
+      "id": 1
+    },
+    {
+      "name": "Turgay Toykar",
+      "age": 26,
+      "salary": 5000,
+      "departmant": "IT",
+      "nationality": "Turkish",
+      "interests": [
+        "Dance",
+        "Travelling",
+        "Trolling",
+        "Playing a guitar"
+      ],
+      "skills": [
+        "JavaScript",
+        "React",
+        "HTML 5",
+        "Node.js",
+        "Python",
+        "C#",
+        "Java"
+      ],
+      "workpermit": true,
+      "languages": [
+        "Turkish",
+        "English"
+      ],
+      "id": 2
+    },
+    {
+      "name": "Bekir Kurtulush",
+      "age": "31",
+      "salary": "32",
+      "department": "Accountant",
+      "skills": "Management,Problem Solving",
+      "interests": "Basketball, Watching movie, Gym",
+      "workpermit": true,
+      "id": 3
+    },
+    {
+      "name": "Kadir Capa",
+      "age": "27",
+      "salary": "8000",
+      "department": "IT",
+      "skills": [
+        "Java",
+        "C#",
+        "CSS",
+        "Sass",
+        "Bulma"
+      ],
+      "interests": [
+        "Gym",
+        "Coding",
+        "Reading",
+        "cooking"
+      ],
+      "workpermit": true,
+      "id": 4
+    },
+    {
+      "name": "Nazif Kurtulush",
+      "age": "54",
+      "salary": "1000000",
+      "department": "IT",
+      "skills": [
+        "Problem solving",
+        "css",
+        "js",
+        "c",
+        "c++",
+        "css 3"
+      ],
+      "interests": [
+        "Gym",
+        "Cooking"
+      ],
+      "workpermit": true,
+      "id": 5
+    },
+    {
+      "name": "Bulent Ozturk",
+      "age": "34",
+      "salary": "3444",
+      "department": "IT",
+      "skills": [
+        "css",
+        "html5"
+      ],
+      "interests": [
+        "pigeon",
+        "chilling",
+        "netflix"
+      ],
+      "workpermit": true,
+      "id": 6
+    },
+    {
+      "name": "Bulent Ozturk",
+      "age": "34",
+      "salary": "3444",
+      "department": "IT",
+      "skills": [
+        "dsada",
+        "dsadsa"
+      ],
+      "interests": [
+        "daaf"
+      ],
+      "workpermit": true,
+      "id": 7
+    },
+    {
+      "name": "Bulent Ozturk",
+      "age": "34",
+      "salary": "3444",
+      "department": "IT",
+      "skills": [
+        "dsda",
+        "sdasda"
+      ],
+      "interests": [
+        "sdsad"
+      ],
+      "workpermit": true,
+      "id": 8
+    },
+    {
+      "name": "Bulent Ozturk",
+      "age": "34",
+      "salary": "3444",
+      "department": "IT",
+      "skills": [
+        "dsdsa"
+      ],
+      "interests": [
+        "sdsad"
+      ],
+      "workpermit": true,
+      "id": 9
+    },
+    {
+      "name": "Bulent Ozturk",
+      "age": "34",
+      "salary": "12312",
+      "department": "Accountant",
+      "skills": [
+        "sdad",
+        "dsadas"
+      ],
+      "interests": [
+        "sadsa",
+        "sad"
+      ],
+      "workpermit": true,
+      "id": 10
+    },
+    {
+      "name": "Ufuk Temur",
+      "age": "29",
+      "salary": "3300",
+      "department": "Betting",
+      "skills": [
+        "sdsap",
+        "sdadal",
+        "sdad,l",
+        "asdas"
+      ],
+      "interests": [
+        "dasad",
+        "sdasda",
+        "sfsafdsa"
+      ],
+      "workpermit": true,
+      "id": 11
+    }
+  ]
 }

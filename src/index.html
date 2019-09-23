@@ -2,77 +2,104 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
+
     <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
   </head>
   <body>
+    <nav class="navbar is-primary">
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            All Employees
+          </a>
+
+          <a class="navbar-item">
+           Advanced Filter
+          </a>
+        </div>
+
+      </div>
+    </nav>
     <main>
       <section>
+
         <div class="section">
 
          <div class="container box">
-           
-           <form class="" action="index.html" method="post">
+
+           <form class="" action="index.html" method="post" id='form-employee'>
              <div class="columns multiline  is-mobile">
                  <div class="column is-half-desktop">
                    <div class="field">
                      <div class="control">
                        <label class="label">Full Name</label>
-                        <input type="text" name="" value="" class="input" placeholder="Please enter your full name">
+                        <input type="text" name="" value="" class="input" placeholder="Please enter your full name" id='eName'>
                      </div>
                    </div>
                    <div class="field">
                       <div class="control">
                         <label class="label">Age</label>
-                         <input type="number" name="" value="" class="input" placeholder="Please enter your age">
+                         <input type="number" name="" value="" class="input" placeholder="Please enter your age" id='eAge'>
                       </div>
                    </div>
                    <div class="field">
                            <div class="control">
                              <label class="label">Department</label>
-                              <input type="text" name="" value="" class="input" placeholder="Please enter your departmant">
+                              <input type="text" name="" value="" class="input" placeholder="Please enter your department" id='eDepartment'>
                            </div>
                    </div>
                    <div class="field">
                       <div class="control">
                         <label class="label">Salary</label>
-                         <input type="number" name="" value="" class="input" placeholder="Please enter your salary">
+                         <input type="number" name="" value="" class="input" placeholder="Please enter your salary" id='eSalary'>
                       </div>
                     </div>
                     <div class="field">
                         <div class="control">
                           <label class="label">Nationality</label>
-                           <input type="text" name="" value="" class="input" placeholder="Please enter your nationality">
+                           <input type="text" name="" value="" class="input" placeholder="Please enter your nationality" id='eNationality'>
                         </div>
                     </div>
                     <div class="field">
                       <div class="control">
                         <label class="label">Skills</label>
-                         <input type="text" name="" value="" class="input" placeholder="Please enter your skills " multiple>
+                         <input type="text" name="" value="" class="input" placeholder=" " multiple id='eSkills'>
                       </div>
                     </div>
                     <div class="field">
                       <div class="control">
                         <label class="label">Interests</label>
-                         <input type="text" name="" value="" class="input" placeholder="Please enter your  interests"  multiple >
+                         <input type="text" name="" value="" class="input" placeholder=""  multiple id='eInterests'>
                       </div>
                     </div>
                     <div class="field">
                       <div class="control">
                        <label class="label">Work Permit</label>
                      <label class="radio">
-                       <input type="radio" name="answer">
+                       <input type="radio" name="answer" value='yes' id='yes'>
                        Yes
                      </label>
                      <label class="radio">
-                       <input type="radio" name="answer">
+                       <input type="radio" name="answer" value='no' id='no'>
                        No
                      </label>
                     </div>
                     </div>
+                    <div class="field is-grouped">
+                       <div class="control">
+                         <button class="button is-link">Submit</button>
+                       </div>
+                       <div class="control">
+                         <button class="button is-text">Cancel</button>
+                       </div>
+
+                 </div>
                  </div>
 
 
-              </div>
            </form>
 
              </div>
