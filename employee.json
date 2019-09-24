@@ -63,8 +63,20 @@
       "salary": "32",
       "department": "Accountant",
       "nationality": "Turkish",
-      "skills": "Management,Problem Solving",
-      "interests": "Basketball, Watching movie, Gym",
+      "skills": [
+        "Management",
+        "Problem Solving"
+      ],
+      "interests": [
+        "Basketball",
+        " Watching movie",
+        "Gym"
+      ],
+      "languages": [
+        "Turkish",
+        "English",
+        "Spanish"
+      ],
       "workpermit": true,
       "id": 3
     },
@@ -87,6 +99,11 @@
         "Reading",
         "cooking"
       ],
+      "languages": [
+        "Turkish",
+        "English",
+        "Spanish"
+      ],
       "workpermit": true,
       "id": 4
     },
@@ -107,9 +124,108 @@
         "Gym",
         "Cooking"
       ],
+      "languages": [
+        "Turkish",
+        "English",
+        "Spanish"
+      ],
       "workpermit": true,
       "id": 5
     },
-  
+    {
+      "name": "Ertan Sumer",
+      "age": "30",
+      "salary": "5000",
+      "department": "Administration",
+      "nationality": "Cyprus",
+      "skills": [
+        "Communication",
+        "Problem Solving",
+        "Team Worker",
+        "Quick learner"
+      ],
+      "interests": [
+        "DJing",
+        "Netfilx",
+        "Clubbing",
+        "Football"
+      ],
+      "workpermit": true,
+      "id": 6
+    },
+    {
+      "name": "Sedat Semirli",
+      "age": "31",
+      "salary": "5000",
+      "department": "Hospitality",
+      "nationality": "Turkish",
+      "skills": [
+        "Communication",
+        "multi-processor"
+      ],
+      "interests": [
+        "gym",
+        "football",
+        "gaming"
+      ],
+      "workpermit": true,
+      "id": 7
+    },
+    {
+      "name": "Erkan Kara",
+      "age": "37",
+      "salary": "4000",
+      "department": "Bar",
+      "nationality": "Porteguese",
+      "skills": [
+        "Communication",
+        "Bartending",
+        "Problem Solving"
+      ],
+      "interests": [
+        "Football",
+        "Music",
+        "Betting"
+      ],
+      "workpermit": true,
+      "id": 8
+    },
+    {
+      "name": "Mike Hayden",
+      "age": "41",
+      "salary": "8000",
+      "department": "IT",
+      "nationality": "British",
+      "skills": [
+        "Js",
+        "React.js",
+        "CSS 3",
+        "HTML 5"
+      ],
+      "interests": [
+        "Dog",
+        "Rock",
+        "Coding"
+      ],
+      "workpermit": true,
+      "id": 9
+    },
+    {
+      "name": "Bulent Ozturk",
+      "age": "34",
+      "salary": "3000",
+      "department": "Security",
+      "nationality": "Turkish",
+      "skills": [
+        "Communication"
+      ],
+      "interests": [
+        "Football",
+        "Clubbing",
+        "Movies"
+      ],
+      "workpermit": true,
+      "id": 10
+    }
   ]
 }

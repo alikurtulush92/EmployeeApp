@@ -34,7 +34,7 @@ export class Request{
 
      return responseData
    }
-   async delte(id)
+   async delete(id)
    {
      const response  = await fetch(this.url+'/'+id,{
        method:'DELETE'

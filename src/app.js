@@ -19,18 +19,25 @@ function loadedPage() {
   const workpermitYInput = document.getElementById('yes')
   const workpermitNInput = document.getElementById('no')
   const form = document.getElementById('form-employee')
+  const employeeList = document.getElementById('employee-list')
 
   const ui = new UI()
   const request = new Request()
   let skills = []
   let interests = []
+  let languages = []
 
   const skillList = new Choices(document.getElementById('eSkills'),{
     removeItemButton:true
   })
   const interestList = new Choices(document.getElementById('eInterests'),{
-    removeItemButton:true
+
+      removeItemButton:true
   })
+
+  const languageList = new Choices(document.getElementById('eLanguages'),{
+      removeItemButton:true
+    })
 
   getData()
 
@@ -38,10 +45,16 @@ function loadedPage() {
   function eventListeners() {
 
       form.addEventListener('submit',sendData)
+      employeeList.addEventListener('click',selectItem)
+
       skillList.passedElement.element.addEventListener('addItem',addSkillItem , false);
       interestList.passedElement.element.addEventListener('addItem',addInterestItem, false);
+      languageList.passedElement.element.addEventListener('addItem',addLanguageItem, false);
+
       skillList.passedElement.element.addEventListener('removeItem',removeSkillItem, false);
       interestList.passedElement.element.addEventListener('removeItem',removeInterestItem, false);
+      languageList.passedElement.element.addEventListener('removeItem',removeLanguageItem, false);
+
 
 
   }
@@ -54,6 +67,11 @@ function loadedPage() {
        // do something creative here...
        interests.push(event.detail.value)
      }
+     function addLanguageItem(event) {
+      // do something creative here...
+      languages.push(event.detail.value)
+    }
+
      function removeSkillItem(event) {
       // do something creative here...
     //  skills.push(event.detail.value);
@@ -61,6 +79,10 @@ function loadedPage() {
 
 
     }
+    function removeLanguageItem(event) {
+     languages = languages.filter(item => item !== event.detail.label)
+    }
+
     function removeInterestItem(event) {
         interests = interests.filter(item => item !== event.detail.label)
     }
@@ -71,7 +93,6 @@ function loadedPage() {
     }
 
     else{
-
 
       const data = {
         name:nameInput.value.trim(),
@@ -84,16 +105,45 @@ function loadedPage() {
         workpermit:workpermitYInput.value === 'yes' ? true : false
       }
       request.post(data)
+      .then(employee => ui.addEmployeeToUI(employee))
+      .catch(err => console.log(err))
     }
 
-   ui.clearInputs()
+   ui.clearInputs(skillList,interestList,languageList)
+
    e.preventDefault()
   }
   function getData() {
      request.get()
-    .then(employees => ui.addEmployeesToUi(employees))
+    .then(employees => ui.addEmployeesToUI(employees))
     .catch(err => console.log(err))
   }
+  function selectItem(e) {
+    console.log(e.target.textContent);
+    console.log(e.target.id);
+    const id = e.target.parentElement.parentElement.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.textContent
+
+
+    if(e.target.id === 'employee-delete'){
+
+       deleteEmployee(e.target)
+
+    }
+
+    else if(e.target.id === 'employee-update'){
+          updateEmployee(e.target)
+    }
+
+  }
+   function deleteEmployee(targetEmployee) {
+     const id = targetEmployee.parentElement.parentElement.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.textContent
+     request.delete(id)
+    .then(message => ui.deleteEmployeeFromUI(targetEmployee.parentElement.parentElement.parentElement))
+    .catch(err => console.log(err))
+   }
+
+
+
 
 
 
